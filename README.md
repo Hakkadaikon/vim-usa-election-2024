@@ -2,7 +2,7 @@
 
 Indicate USA election 2024 in Vim
 
-![vim-usa-election-2024](https://raw.githubusercontent.com/mattn/vim-usa_election_2024/main/misc/screenshot.png)
+![vim-usa-election-2024](https://github.com/mattn/vim-usa-election-2024/blob/main/misc/screenshot.png?raw=true)
 
 ## Usage
 
