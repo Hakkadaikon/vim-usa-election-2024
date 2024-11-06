@@ -24,7 +24,7 @@ function! s:job_callback(ch, data) abort
 endfunction
 
 function! usa_election_2024#update()
-  call job_start(['curl', '-s', 'https://data.ddhq.io/electoral_college/2024'], {'callback': function('s:job_callback')})
+  call jobstart(['curl', '-s', 'https://data.ddhq.io/electoral_college/2024'], {'callback': function('s:job_callback')})
 endfunction
 
 call usa_election_2024#update()
